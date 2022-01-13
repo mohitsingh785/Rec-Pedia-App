@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Academics">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="REC PEDIA"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Rewa Engineering College"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="At first year of engineering, many queries may hit your mind. The most frequently asked queries are regarding the syllabus and the study materials. Where should I start from? Which book to prefer? The best study material to go with? are the most commonly asked questions of all time. \n\n  REC Pedia here is concerned for you. Therefore, we have exclusively designed this section for you where you all will be able to go through the entire syllabus along with the study materials provided. We hope these study materials will assist the students to enhance their learning process along with their knowledge.  \n\n\n Happy learning!"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="FIRST YEAR SYLLABUS"
+                android:textColor="#FFC107"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/downloadsyallbus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="sans-serif"
+                android:onClick="syllbuslink"
+                android:text="DOWNLOAD"
+                android:textColor="@color/white"
+                app:backgroundTint="#F44336"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="ENGINEERING CHEMISTRY (BT-101)"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 1: Water – Analysis, Treatments and Industrial Applications Sources, Impurities, Hardness And its units, Determination of hardness by EDTA method, Alkalinity And It’s determination and related numerical problems."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 2: Boiler problem And softening methods Boiler troubles (Sludge And Scale, Priming And Foaming, Boiler Corrosion, Caustic Embrittlement), Softening methods (Lime-Soda, Zeolite and Ion Exchange Methods) and related numerical problems."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 3: Module 3: Sequences and series: (6 hours): Convergence of sequence and series, tests for convergence; Power series, Taylor's series, series for exponential, trigonometric and logarithm functions; Fourier series: Half range sine and cosine series, Parseval’s theorem."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 4: )Polymer And polymerization Introduction, types of polymerisation, Classification, mechanism of polymerisation (Free radical And Ionic polymerization). Thermoplastic And Thermosetting polymers Elementary idea of Biodegradable polymers, preparation, properties  And uses of the following polymers- PVC, PMMA, Teflon, Nylon 6, Nylon 6:6, Polyester phenol formaldehyde, Urea- Formaldehyde, Buna N, Buna S, Vulcanization of Rubber."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 5: Phase equilibrium and Corrosion Phase diagram of single component system (Water) Phase diagram of binary Eutectic System ( Cu-Ag.) Corrosion: Types, Mechanisms And prevention."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 6: Spectroscopic techniques and application Principle, Instrumentation And Applications, electronics spectroscopy, Vibrational And Rotational Spectroscopy of diatomic molecules."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 7: Periodic properties Effective Nuclear Charge, Variations: S, P, And f Orbital energies of atoms in periodic table, Electronics Configuration, atomic And Ionic sizes, electron affinity And electro negativity, Ploarizability And Oxidation States."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/chemistrydown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="sans-serif"
+                android:text="DOWNLOAD"
+                android:textColor="@color/white"
+                app:backgroundTint="#3F51B5"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="MATHEMATICS-I (BT-102)"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 1: Module 1: Calculus: (10 hours): Rolle’s theorem, Mean Value theorems, Expansion of functions by Mc. Laurin’s and Taylor’s for one variable; Taylor’s theorem for function of two variables, Partial Differentiation, Maxima And Minima (two and three variables), Method of Lagranges Multipliers."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 2: Module 2: Calculus: (8 hours): Definite Integral as a limit of a sum and Its application in summation of series; Beta and Gamma functions and their properties; Applications of definite integrals to evaluate surface areas and volumes of revolutions. Multiple Integral, Change the order of the integration, Applications of multiple integral for calculating area and volumes of the curves."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 3: Lubricants and Lubrication Introduction, Mechanism of lubrication, Classification of lubricants, significance And determination of Viscosity and Viscosity Index, Flash And Fire Points, Cloud And Pour Points, Aniline Point, Acid Number, Saponification Number, Steam Emulsification Number and related numerical problems."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 4: Module 4: Vector Spaces (8hours):Vector Space,Vector Sub Space, Linear Combination of Vectors,Linearly Dependent, Linearly Independent, Basis of a Vector Space,Linear Transformations"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="UNIT 5: Module 5: Matrices (8 hours): Rank of a Matrix, Solution of Simultaneous Linear Equations by Elementary Transformation, Consistency of Equation, Eigen Values and Eigen Vectors, Diagonalization of Matrices, Cayley-Hamilton theorem and its applications to find inverse."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+
+            <Button
+                android:id="@+id/mathdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="sans-serif"
+                android:text="DOWNLOAD"
+                android:textColor="@color/white"
+                app:backgroundTint="#3F51B5"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

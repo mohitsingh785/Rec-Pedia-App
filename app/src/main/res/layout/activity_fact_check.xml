@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fact_check">
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical" >
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:src="@drawable/giflogo" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="REC PEDIA"
+                android:textColor="#FFC107"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Official Media House &amp; Event Organizing Body"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="Rewa Engineering College"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text=" NOTICE &amp; UPDATES"
+                android:textColor="#FFC107"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:layout_marginTop="5dp"
+                android:scaleX="1.6"
+                app:srcCompat="@drawable/facts" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:text="Burst Fake News"
+                android:textColor="#E91E63"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="“Nothing limits intelligence more than ignorance; nothing fosters ignorance more than one’s own opinions; nothing strengthens opinions more than refusing to look at ‘reality’.”\n\n
+  Think twice, every gossip is not always accurate. Every story require a background check\n\n
+  REC Pedia is all set to announce its new initiative in which we will check the facts, information, gossip and more from all over the college. If anyone wants to verify any type of information then you must contact PEDIA for that.\n\n\n
+  Don’t believe what everyone else is believing. Check them out later, Cautiously.
+"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/verify_buttom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font5"
+                android:text="Verify"
+                android:textColor="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp"
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="#22292F"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

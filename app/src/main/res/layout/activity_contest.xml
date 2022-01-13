@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".contest">
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:src="@drawable/giflogo" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="REC PEDIA"
+                android:textColor="#FFC107"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/slide_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Official Media House &amp; Event Organizing Body"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="Rewa Engineering College"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="CONTESTS"
+                android:textColor="#FFC107"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:layout_marginTop="15dp"
+                android:scaleX="1.4"
+                app:srcCompat="@drawable/contest" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Are you a true IPL enthusiast and your expertise in cricket strategies combined with your gut feeling leads you to predict the match-winner?\n
+If Yes, then we've something spicy for you ;).\n\nSpicing up the IPL festive season, even more, REC Pedia is all set to announce IPL 2020 prediction contest !!
+The coolest contest ever, open for all.\n\nRegister immediately to participate in the contest and get a chance to win IPL2020 Winning Team's T-Shirt &amp; exciting prize for Runner Up !!\n\nFollow these steps to Register -\n\n1. Follow REC Pedia account on Instagram.\n2. Comment your full name in the comment box &amp; tag 3 people. (They also have to follow our account)\n3. Fill the google form given on our website.(link in bio)\n4. Pay the Registration Fee Rs.10(one time) &amp; play everyday.\n\n\nGeneral Instructions -\n\n👉The prediction will be done via our Instagram story, Everyday.\n👉Predict with your registered Insta account only.\n👉For each match, you can predict the winner before the Match starts.\n👉You can predict once for Each Match.\n👉For each correct prediction, you'll get 2 Points, for wrong prediction -1 &amp; for no prediction 0\n👉Bonus Point: +5 for correct 'Man of the Match' prediction, 0 for the wrong (Optional)\n👉Every day, Registered Participants will get points as above rule.\n👉At last, All Points will be added &amp; the person with the most points will be the winner.\n\n\nTip: Predict every day, to increase your winning chances.\n\n\nFor any query, Feel free to DM us !\nHappy Contest :)"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="LEADERBORED"
+                android:textColor="@color/white"
+                app:backgroundTint="#22292F"
+                app:icon="@drawable/ic_menu_send"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

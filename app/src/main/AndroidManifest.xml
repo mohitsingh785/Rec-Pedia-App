@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recpedia">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecPedia">
+        <activity android:name=".Firstyear"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".pediaconsulting"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".workshop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".internship"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".contest"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pediatalks"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pediaplus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".malikkivhai"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".covid19_support"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fact_check"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".talent_shoutout"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".signin_activity" />
+        <activity android:name=".signup_activity" />
+        <activity
+            android:name=".eventandcpmtetion"
+            android:parentActivityName=".MainActivity" /> <!-- </activity> -->
+        <activity
+            android:name=".noticeandupdate"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".splashscreen"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RecPedia.NoActionBar" />
+    </application>
+
+</manifest>

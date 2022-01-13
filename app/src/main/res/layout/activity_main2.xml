@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity2"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/giflogo" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text=" A BIT ABOUT US"
+                android:textColor="#FFC107"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="REC Pedia is a Non-Profit Organization run by a student community that serves as the Official Media House And Event Organising body of Rewa Engineering College.\n\n We provide important notices and announcement from College and University. We also organize exciting events and competitions throughout the year. \n\nWe provide many skill development workshops And various internship programs to enhance the skills of students by providing them with a worthy platform. We aim to empower the student generation, open the doors for students, and let them embark on further new opportunities effectively."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/mission_legacy"
+                android:textColor="#FFC107"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Media is the fourth fundamental pillar of democracy. An aim bound, time bound free expressing media is essential for any organisation or country. Availability of an accessible media is always grateful for any organization. \n\nToday REC Pedia is recognized as the official media and magazine body of our REC. When our college was going through various irregularities and hustle  And bustle, some of our seniors, holding the flag of positive reforms launched REC Pedia on Facebook page on April 2017. These founding group of seniors were not only brilliant but also courageous as well as non fearful of consequences because at that time, Launching of such official clubs were a hard nut to crack.\n\nIn today's time it's much easier to take any initiative or form any club but it wasn't so some years ago. Thanks to those Daredevils who established REC Pedia in 2017.\n\nAt beginning the name of this club was 'REC Media' but later on changed to REC Pedia on September 2017. Those seniors reformed and renewed the legacy of annual fest and named it 'आrambh 1.O' the Cultural and Tech fest of Rewa Engineering College.\n\nInitial working of Pedia started right from there. From initial planning of events to execution; From prior notices to covering events; From highlights to conclusions; RECPedia electrified the whole REC system and this legacy is still going on and Will Go On ! \n\nWorking as Media, REC Pedia covered And published each and every seminars, events, notices, schedules as well as cultural, technical And sports activities. Along with आrambh, REC Pedia organises Independence Day, Republic Day and other festivals .\n\nWith a promise to keep working on it's legacy, REC Pedia is always available in the service of REC And RECians !\n\n\nWith Love,\nREC Pedia"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:scaleX="2"
+                app:srcCompat="@drawable/principle" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="Chief Patron"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="DR. B.K. AGRAWAL"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Principal, REC Rewa"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="TEAM 2018-2020"
+                android:textColor="#FFC107"
+                android:textSize="30sp" />
+
+
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoStart="true"
+
+                android:flipInterval="2000">
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:src="@drawable/head1" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/head4" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:src="@drawable/head2" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/head3" />
+
+            </ViewFlipper>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
