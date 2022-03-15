@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Academics">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="REC PEDIA"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Rewa Engineering College"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="NO-DUES CERTIFICATION"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="To ensure the hassle-free submission of fees &amp; to get approval of no dues from the college, tap here to download your No Dues Certificate."
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <Button
+                android:id="@+id/downcertificate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="sans-serif"
+                android:text="DOWNLOAD"
+                android:onClick="nodues"
+                android:textColor="@color/white"
+                app:backgroundTint="#F44336"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+
+            <TextView
+                android:id="@+id/textView6545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Civil Engineering Deptt.\nName : Dr. R.P Tiwari \nPhone no.: 9425357547"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Meachnical Engineering Deptt.\nName : Dr. Abhay Agrawal \n Phone no.: 9425755188"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Electrical Engineering Deptt.\nName : Dr. A.B Sarkar\nPhone no.: 9893488270"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Electronic &amp; Communication Engg Deptt.\nName : Dr. A.K Buchke \nPhone no.: 7415484486"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Physics Deptt.\nName : Dr. Sandeep Pandey  \n Phone no.: 9425179694"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Chemistry Deptt.\nName : Dr. Manoj Kumar Solanki   \nPhone no.: 9893618180"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Head, Mathmatics Deptt.\nName : Dr. R.P Rai \nPhone no.: 9425185848"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Work Shop Superintendent\nName : Prof. Amit Shukla \nPhone no.: 7662084523"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Librarian\nName : Kamlesh Pathak\nPhone no.: 7582914979"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="The Sports/Games In-Charge\nName : Dhirendra Kumar Soni\n Phone no.: 9200353650"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Accounts Officer\nName : B.M Chaturvedi \nPhone no.: 89822491494"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Fees Clerk\nName : B.M Chaturvedi \nPhone no.: 89822491494"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="New Hostel Warden\nName : D.K Jain \nPhone no.: 7869130130"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Girls Hostel Warden\nName : Archana Tamrakar\nPhone no.: 9827927504"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Cheif Hostel Warden\nName : D.K Jain \nPhone no.: 7869130130"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="SC/ST Stationary In-charge\nName : S. C Kori \nPhone no.: 9424336623"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="SC/ST Drawing Material In-charge\nName : S. C Kori \n Phone no.: 9424336623 "
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Time Keeper\nName : Lal Mani Tiwari \nPhone no.:9200187508 "
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Electronics Store\nName :  Govindlal kol \nPhone no.: 8226023274 "
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/head20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Mechanical Lab"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/head25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BME Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Lalmani Tiwri  \n  Phone no.:9200187508"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/head26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Applied Mechanics"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Vikram Singh \n Phone no.:9826920913"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="DOM Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Madhav Dwivedi \nPhone no.:9479930772"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/head28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Production Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Sanendra Patle\nPhone no.:9165742883"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="IC Engine"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : D.K Soni \nPhone no.:9200353650"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/head30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="AutoMobile"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : D.K Soni  \nPhone no.:9200353650"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="RAC/HMT"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Lalmani Tiwari \nPhone no.:9200187508"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Material Testing Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Vikram Singh \n Phone no.:9826920913"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/head33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="CAD/Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Sanendra Patle \nPhone no.:9165742883"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Smart Classes"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Sanendra Patle \n Phone no.:9165742883"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Electrical Lab"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/head37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Computer Lab/Central Computer Lab/Micro Proccesor Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : R.S Verma  \n  Phone no.:7869993450"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Machine Lab/Control Lab/Analog &amp; Electronic Lab/High Voltage Lab/DEID Lab/BEE Lab/Protection Lab/Power System Drive"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : B.R Bhagat \n  Phone no.:9755456951"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="EEE Lab/Electrical Workshop Lab/Measurement Lab/Instrument Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : S.C Kori \n  Phone no.:9424336623"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Civil Lab"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/head51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Surveying Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Biharilal Bega \n  Phone no.:7354512482"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Soil Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Khusendra Kumar Mishra  \n  Phone no.:9424933433"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Hydraulic Lab/FM"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Ramyash Patel\n  Phone no.:9827374394"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="RMT(Road Material Testing) Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : M.P Singh\n  Phone no.:7470316085"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Concrete Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : M.P Singh\n  Phone no.:7470316085"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="PHE Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Ramyash Patel\n  Phone no.:9827374394"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Structural Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : M.P Singh\n  Phone no.:7470316085"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Rock Mechanics Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Khusendra Kumar Mishra  \n  Phone no.:9424933433"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Computer Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : M.P Singh\n  Phone no.:7470316085"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="EC DepartMent"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/head62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="N/W Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Govindlal Kol\n  Phone no.:8226023274"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="VLSI Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Govindlal Kol\n  Phone no.:8226023274"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Comp &amp; Simulation Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : M.R Prajapati \n  Phone no.:8349964696"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Optical Comm. &amp; Digital Circuit Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : M.R Prajapati \n  Phone no.:8349964696"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="EDC/Analog Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Govindlal Kol\n  Phone no.:8226023274"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="DSP &amp; Microwave Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : R.K Mishra\n  Phone no.:9617837130"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/head68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="CS DepartMent"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/head69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Design Lab"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:text="Name : Proff. Manoj Chauhan\n  Phone no.:8871292279"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottiessdfsd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:elevation="5dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/line"
+                app:lottie_url="REPLACE_JSON_URL">
+
+            </com.airbnb.lottie.LottieAnimationView>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/font6"
+                android:text="info@recpedia.org"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/font6"
+                android:text="+91 9424002624"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/font6"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="REC Pedia's Office, 1st Floor, Rewa Engineering College, Rewa, Madhya Pradesh, India - 486002"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/instabuttom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:onClick="instabuttom"
+                    android:src="@drawable/instagram" />
+
+                <ImageView
+                    android:id="@+id/linkibuttom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:onClick="linkibuttom"
+                    android:src="@drawable/linkedin" />
+
+                <ImageView
+                    android:id="@+id/ytbuttom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:onClick="ytbuttom"
+                    android:src="@drawable/youtube" />
+
+                <ImageView
+                    android:id="@+id/fbbuttom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:onClick="fbbuttom"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/twittorbuttom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:onClick="twitterbuttom"
+                    android:src="@drawable/twitter" />
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottiessdivider"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:elevation="5dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/divider"
+                app:lottie_url="REPLACE_JSON_URL"></com.airbnb.lottie.LottieAnimationView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

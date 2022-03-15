@@ -53,7 +53,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:fontFamily="sans-serif-black"
+            android:fontFamily="sans-serif"
             android:text="Logging-Out?"
             android:textColor="#E91E63"
             android:textSize="24sp" />
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:fontFamily="sans-serif-medium"
+            android:fontFamily="sans-serif"
             android:text="Are You Sure To Log-Out?"
             android:textColor="@color/white"
             android:textSize="18dp" />

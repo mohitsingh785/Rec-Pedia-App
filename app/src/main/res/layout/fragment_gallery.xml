@@ -20,24 +20,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/lottie"
-                android:layout_width="123dp"
-                android:layout_height="110dp"
-                android:layout_marginEnd="250dp"
-                android:layout_marginRight="250dp"
-                android:elevation="5dp"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/swipe"
-                app:lottie_url="REPLACE_JSON_URL">
-
-            </com.airbnb.lottie.LottieAnimationView>
 
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/logo" />
 
             <TextView
@@ -58,7 +46,7 @@
                 android:gravity="center"
                 android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -81,7 +69,12 @@
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/gallery"
                 app:lottie_url="REPLACE_JSON_URL"></com.airbnb.lottie.LottieAnimationView>
-
+            <ImageView
+                android:id="@+id/glnine"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glimgnine" />
 
             <ImageView
                 android:id="@+id/one"
@@ -89,6 +82,73 @@
                 android:layout_height="250dp"
                 android:scaleX="1.5"
                 android:src="@drawable/one" />
+            <ImageView
+                android:id="@+id/glone"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/galleryone" />
+            <ImageView
+                android:id="@+id/gltwo"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/gallimgone" />
+            <ImageView
+                android:id="@+id/glthree"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glimgtwo" />
+            <ImageView
+                android:id="@+id/glfour"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glimgthree" />
+            <ImageView
+                android:id="@+id/glfive"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glimagefour" />
+            <ImageView
+                android:id="@+id/glsix"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glimgfive" />
+            <ImageView
+                android:id="@+id/glseven"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glimgsix" />
+            <ImageView
+                android:id="@+id/glten"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glnine" />
+            <ImageView
+                android:id="@+id/glfifteen"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glfifteen" />
+            <ImageView
+                android:id="@+id/glsixteen"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/glsixteen" />
+            <ImageView
+                android:id="@+id/gleighteen"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleX="1.5"
+                android:src="@drawable/gleighteen" />
+
             <ImageView
                 android:id="@+id/three"
                 android:layout_width="match_parent"
@@ -144,18 +204,15 @@
                 android:layout_height="250dp"
                 android:scaleX="1.5"
                 android:src="@drawable/eleven" />
-            <ImageView
-                android:id="@+id/twelve"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:scaleX="1.5"
-                android:src="@drawable/twelve" />
+
             <ImageView
                 android:id="@+id/thirteen"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:scaleX="1.5"
                 android:src="@drawable/thirteen" />
+
+
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottiess"
@@ -201,7 +258,7 @@
                 android:fontFamily="@font/font6"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering College,Rewa,Madhya Pradesh,India - 486001"
+                android:text="REC Pedia's Office, 1st Floor, Rewa Engineering College, Rewa, Madhya Pradesh, India - 486002"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
@@ -220,10 +277,11 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="instabuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="instabuttom"
                     android:src="@drawable/instagram" />
+
                 <ImageView
                     android:id="@+id/linkibuttom"
                     android:layout_width="24dp"
@@ -231,9 +289,9 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="linkibuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="linkibuttom"
                     android:src="@drawable/linkedin" />
 
                 <ImageView
@@ -244,9 +302,9 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="ytbuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="ytbuttom"
                     android:src="@drawable/youtube" />
 
                 <ImageView
@@ -284,9 +342,7 @@
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/divider"
-                app:lottie_url="REPLACE_JSON_URL">
-
-            </com.airbnb.lottie.LottieAnimationView>
+                app:lottie_url="REPLACE_JSON_URL"></com.airbnb.lottie.LottieAnimationView>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

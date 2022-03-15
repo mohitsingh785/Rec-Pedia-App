@@ -21,37 +21,40 @@
             android:background="@color/black"
             android:orientation="vertical">
 
-            <pl.droidsonroids.gif.GifImageView
+
+            <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
-                android:src="@drawable/giflogo" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo" />
 
             <TextView
-                android:id="@+id/textView35"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/font5"
-                android:gravity="center"
-                android:text="REC PEDIA"
-                android:textColor="#FFC107"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/textView36"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Official Media House &amp; Event Organizing Body"
-                android:textColor="@color/white" />
+                android:text="REC PEDIA"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/textView37"
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Rewa Engineering College"
                 android:textColor="@color/white"
@@ -62,10 +65,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="INTERNSHIP OPPORTUNITY"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="30sp" />
 
             <ImageView
@@ -105,7 +108,7 @@ Important Details -
 Start Date: Immediately\n\nDuration: 1-2 Months\n\n
 Stipend: Unpaid\n\n
 Who can apply:\n\n
-Only those candidates can apply who -1\n
+Only those candidates can apply who \n
 1. are available for the work from home interns\n
 2. are available for the duration of 1-2 months\n
 3. have relevant skills and interests\n\n\nPerks:\n\n\n-Certificate of Completion\n-Letter of Recommendation\n-Flexible Work Hours\n-5 days a week\n\nFor more details &amp; Internship Description "
@@ -116,16 +119,16 @@ Only those candidates can apply who -1\n
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/font5"
-                android:text="Click Here"
-                android:textColor="@color/white"
-                app:strokeColor="@color/white"
-                app:strokeWidth="2dp"
                 android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif"
+                android:text="APPLY"
+                android:textColor="@color/white"
                 app:backgroundTint="#22292F"
                 app:icon="@drawable/ic_menu_send"
                 app:iconGravity="textStart"
-                app:iconTint="@color/white" />
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
 
             <TextView
                 android:id="@+id/textView41"
@@ -133,10 +136,10 @@ Only those candidates can apply who -1\n
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="INTERNSHIP APPLICATION"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="24sp" />
 
             <TextView
@@ -170,7 +173,7 @@ Only those candidates can apply who -1\n
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/purple_700"
-                    android:fontFamily="@font/font5"
+                    android:fontFamily="sans-serif"
                     android:text=" Internshala "
                     android:textColor="@color/white"
                     app:backgroundTint="#2196F3" />
@@ -181,7 +184,7 @@ Only those candidates can apply who -1\n
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#201B1B"
-                    android:fontFamily="@font/font5"
+                    android:fontFamily="sans-serif"
                     android:text="Dare2Compete"
                     android:textColor="#FFC107"
                     app:backgroundTint="#009688" />

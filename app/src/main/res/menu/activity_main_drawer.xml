@@ -12,6 +12,28 @@
             android:title="HOME"
             app:showAsAction="always" />
         <item
+            android:id="@+id/academics"
+            android:icon="@drawable/ic_vol_type_tv_dark"
+            android:title="
+ACADEMICS" />
+        <item
+            android:id="@+id/ELIBRARY"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="E-LIBRARY" />
+        <item
+            android:id="@+id/videolecture"
+            android:icon="@android:drawable/presence_video_away"
+            android:title="KNOW YOUR FACULTY" />
+        <item
+            android:id="@+id/rgpvlogin"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="NO-DUES CERTIFICATION" />
+
+        <item
+            android:id="@+id/antiragging"
+            android:icon="@drawable/ic_baseline_call_24"
+            android:title="ANTI-RAGGING" />
+        <item
             android:id="@+id/aboutus"
             android:icon="@drawable/ic_baseline_escalator_warning_24"
             android:title="ABOUT US" />
@@ -23,11 +45,7 @@
             android:icon="@drawable/ic_baseline_follow_the_signs_24"
             android:title="
 JOIN OUR TEAM" />
-        <item
-            android:id="@+id/academics"
-            android:icon="@drawable/ic_vol_type_tv_dark"
-            android:title="
-ACADEMICS" />
+
         <item
             android:id="@+id/contactus3"
             android:icon="@drawable/ic_baseline_call_24"

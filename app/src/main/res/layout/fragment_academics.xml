@@ -47,7 +47,7 @@
                 android:gravity="center"
                 android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
 
             <TextView
@@ -87,14 +87,15 @@
                     android:id="@+id/first"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:onClick="first"
-                    android:src="@drawable/pediaplusnew" />
+                    android:onClick="firstyear"
+                    android:src="@drawable/firstyear" />
 
                 <ImageView
                     android:id="@+id/second"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/pediatalksnew" />
+                    android:onClick="secondyear"
+                    android:src="@drawable/secondyear" />
 
 
             </LinearLayout>
@@ -110,13 +111,15 @@
                     android:id="@+id/third"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/pediaplusnew" />
+                    android:onClick="thirdyear"
+                    android:src="@drawable/thirdyear" />
 
                 <ImageView
                     android:id="@+id/fourth"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/pediatalksnew" />
+                    android:onClick="fourthyear"
+                    android:src="@drawable/fouthyear" />
 
 
             </LinearLayout>
@@ -164,7 +167,7 @@
                 android:fontFamily="@font/font6"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering College,Rewa,Madhya Pradesh,India - 486001"
+                android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering College,Rewa,Madhya Pradesh,India - 486002"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 

@@ -20,38 +20,39 @@
             android:layout_height="wrap_content"
             android:background="@color/black"
             android:orientation="vertical">
-
-            <pl.droidsonroids.gif.GifImageView
+            <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
-                android:src="@drawable/giflogo" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo" />
 
             <TextView
-                android:id="@+id/textView35"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:fontFamily="sans-serif-black"
-                android:gravity="center"
-                android:text="REC PEDIA"
-                android:textColor="#FFC107"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/textView36"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Official Media House &amp; Event Organizing Body"
-                android:textColor="@color/white" />
+                android:text="REC PEDIA"
+                android:textColor="#FCC30D"
+                android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/textView37"
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Rewa Engineering College"
                 android:textColor="@color/white"
@@ -62,10 +63,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="PEDIA+"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="30sp" />
 
             <ImageView
@@ -73,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleX="1.6"
-                app:srcCompat="@drawable/pediaplus" />
+                app:srcCompat="@drawable/pediaplusnew" />
 
             <TextView
                 android:id="@+id/textView39"
@@ -92,23 +93,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:fontFamily="@font/font5"
-                android:text="Know More"
-                android:textColor="@color/white"
-                app:strokeColor="@color/white"
-                app:strokeWidth="2dp"
                 android:layout_marginBottom="10dp"
-                app:backgroundTint="#22292F"/>
+                android:fontFamily="sans-serif"
+                android:text="Schedule a Meeting"
+                android:textColor="@color/white"
+                app:backgroundTint="#22292F"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="COLLABORATORS &amp; ASSOCIATES"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="30sp" />
 
             <TextView
@@ -117,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
                 android:layout_marginBottom="15dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Valued Partnerships"
                 android:textColor="#E91E63"
@@ -126,9 +127,9 @@
             <ImageView
                 android:id="@+id/imageView35"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="266dp"
                 android:foregroundGravity="center"
-                android:src="@drawable/ecell" />
+                android:src="@drawable/logoecell" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -138,7 +139,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="E-CELL RGPV"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -156,8 +157,7 @@
             <ImageView
                 android:id="@+id/imageView36"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:foregroundGravity="center"
+                android:layout_height="266dp"
                 android:src="@drawable/tdp" />
 
             <TextView
@@ -168,7 +168,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="TDP VISTA"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -182,11 +182,11 @@
                 android:text="Internship Partner"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
+
             <ImageView
                 android:id="@+id/imageView37"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:foregroundGravity="center"
+                android:layout_height="266dp"
                 android:src="@drawable/internsala" />
 
             <TextView
@@ -197,7 +197,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="INTERNSHALA"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -211,10 +211,12 @@
                 android:text="Internship Outreach Partner"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
+
             <ImageView
                 android:id="@+id/imageView38"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="266dp"
+                android:layout_marginBottom="10dp"
                 android:foregroundGravity="center"
                 android:src="@drawable/longlogo" />
 
@@ -226,7 +228,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="MTTF"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -240,11 +242,13 @@
                 android:text="International Workshop Partner"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
+
             <ImageView
                 android:id="@+id/imageView39"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="266dp"
                 android:foregroundGravity="center"
+
                 android:src="@drawable/sarasva" />
 
             <TextView
@@ -255,7 +259,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="IIIT ALLAHABAD"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -269,11 +273,13 @@
                 android:text="Knowledge Partner"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
+
             <ImageView
                 android:id="@+id/imageView40"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="266dp"
                 android:foregroundGravity="center"
+
                 android:src="@drawable/dare" />
 
             <TextView
@@ -284,7 +290,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="DARE2COMPETE"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -302,9 +308,8 @@
             <ImageView
                 android:id="@+id/imageView41"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="266dp"
                 android:foregroundGravity="center"
-                android:scaleX="1.6"
                 android:src="@drawable/qullab" />
 
             <TextView
@@ -315,7 +320,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="QUOLLAB"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -333,9 +338,9 @@
             <ImageView
                 android:id="@+id/imageView42"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="266dp"
+
                 android:foregroundGravity="center"
-                android:scaleX="1.6"
                 android:src="@drawable/bombaypart" />
 
             <TextView
@@ -346,7 +351,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="E-CELL NITB"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -361,16 +366,252 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
+
+            <ImageView
+                android:id="@+id/imageView427"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/noxious" />
+
+            <TextView
+                android:id="@+id/textView334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="NOXIOUS"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Gaming Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView428"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/noticeboard" />
+            <TextView
+                android:id="@+id/textView335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="NOTICEBARD"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Official Media Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView429"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/educationtree" />
+            <TextView
+                android:id="@+id/textView336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="THE EDUCATION TREE"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Youth Community Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView451"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/unify" />
+            <TextView
+                android:id="@+id/textView337"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="DU UNIFY"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Online Media Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView452"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/festmate" />
+            <TextView
+                android:id="@+id/textView338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="FESTMATE"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Digital Media Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView453"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/vnit" />
+            <TextView
+                android:id="@+id/textView399"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="E-CELL VNIT"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView476"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Campus Outreach Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView457"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/techfest" />
+            <TextView
+                android:id="@+id/textView977"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="TECHFEST, IIT BOMBAY"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4768"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Workshop Associate"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+ <ImageView
+                android:id="@+id/imageView4576"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/forthcoollb" />
+            <TextView
+                android:id="@+id/textView9777"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="FORETHOUGHT INDIA"
+                android:textColor="#FCC30D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView47678"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="45dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="International Education Partner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
             <TextView
                 android:id="@+id/textView41"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="LET'S COLLABOARTE"
-                android:textColor="#FFC107"
+                android:text="LETS COLLABORATE"
+                android:textColor="#FCC30D"
                 android:textSize="24sp" />
 
             <TextView

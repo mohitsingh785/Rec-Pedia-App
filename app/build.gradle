@@ -9,7 +9,7 @@ android {
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        applicationId "com.example.recpedia"
+        applicationId "com.pediaapp.recpedia"
         minSdkVersion 19
         multiDexEnabled true
         targetSdkVersion 31

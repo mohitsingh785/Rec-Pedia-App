@@ -46,7 +46,7 @@
                 android:gravity="center"
                 android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
 
             <TextView
@@ -58,14 +58,70 @@
                 android:text="Rewa Engineering College"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
-
-            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                android:id="@+id/youtube_player_view"
+            <TextView
+                android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="FROM THE LEADERS  \n DESK"
+                android:textColor="#FFC107"
+                android:textSize="30sp" />
 
-                app:videoId="jSSOxHcJ9UI"
-                app:autoPlay="false" />
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoStart="true"
+
+
+                android:flipInterval="3000">
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:src="@drawable/ambarthought" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/abhishek" />
+
+
+
+                <ImageView
+                    android:id="@+id/imageView150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/adityathought" />
+
+                <ImageView
+                    android:id="@+id/imageView151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/somyathought" />
+
+                <ImageView
+                    android:id="@+id/imageView152"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/abhishekthought" />
+
+                <ImageView
+                    android:id="@+id/imageView164"
+                    android:layout_width="wrap_content"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sanskarthought" />
+            </ViewFlipper>
+
 
             <Button
                 android:id="@+id/apply"
@@ -93,11 +149,8 @@
                 android:layout_height="293dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
-                android:layout_marginTop="20dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/button_background"
                 android:scaleY=".8"
                 android:src="@drawable/two" />
 
@@ -106,10 +159,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="MEET OUR TEAM"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="24sp" />
 
             <TextView
@@ -117,7 +170,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="The A-Team of Awesomeness"
                 android:textColor="#F44336"
@@ -136,17 +189,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="ADITYA AGRAHARI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView63"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Coordinator And Editor-In-Chief"
                 android:textColor="@color/white"
@@ -156,7 +209,7 @@
                 android:id="@+id/textView64"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="aditya@recpedia.org"
                 android:textColor="#F44336"
@@ -191,17 +244,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text=" ABHISHEK UPADHYAY"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView48"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Events Head And POC "
                 android:textColor="@color/white"
@@ -211,7 +264,7 @@
                 android:id="@+id/textView47"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="abhishek.upadhyay@recpedia.org"
                 android:textColor="#F44336"
@@ -246,17 +299,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text=" ABHISHEK BHALEKAR"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView50"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Manager And Team Mentor"
                 android:textColor="@color/white"
@@ -266,7 +319,7 @@
                 android:id="@+id/textView51"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="abhishek.bhalekar@recpedia.org"
                 android:textColor="#F44336"
@@ -302,19 +355,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text=" AMBAR TRIPATHI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView56"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Design Head"
+                android:text="Design Mentor"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
@@ -322,7 +375,7 @@
                 android:id="@+id/textView57"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="ambartripathi.at@gmail.com"
                 android:textColor="#F44336"
@@ -357,17 +410,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text=" SOMYA JAIN"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView60"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Media Administrator"
                 android:textColor="@color/white"
@@ -377,7 +430,7 @@
                 android:id="@+id/textView61"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="somya@recpedia.org"
                 android:textColor="#F44336"
@@ -413,19 +466,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="SANSKAR AGARWAL"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView66"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Design Executive"
+                android:text="Design Head"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
@@ -433,7 +486,7 @@
                 android:id="@+id/textView67"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="sanskaragrawal2709@gmail.com"
                 android:textColor="#F44336"
@@ -468,17 +521,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="GHULAM ASHRAF"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView69"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="CAP Manager And Design Executive"
                 android:textColor="@color/white"
@@ -488,7 +541,7 @@
                 android:id="@+id/textView70"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="ashrafghulam246@gmail.com"
                 android:textColor="#F44336"
@@ -523,17 +576,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="DEEPAK BISEN"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView72"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Creative Head"
                 android:textColor="@color/white"
@@ -543,7 +596,7 @@
                 android:id="@+id/textView73"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="deepak@recpedia.org"
                 android:textColor="#F44336"
@@ -562,17 +615,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="SOHAN PATEL"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView75"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="PR Analyst"
                 android:textColor="@color/white"
@@ -582,7 +635,7 @@
                 android:id="@+id/textView76"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="sohanlalpatel292000@gmail.com"
                 android:textColor="#F44336"
@@ -617,17 +670,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="MOHIT SINGH CHANDEL"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView78"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text=" App Developer And Video Editor"
                 android:textColor="@color/white"
@@ -637,7 +690,7 @@
                 android:id="@+id/textView79"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="mohitsinghchandel785@gmail.com"
                 android:textColor="#F44336"
@@ -672,17 +725,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="ANU MISHRA"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView81"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Design Executive And Event Organiser"
                 android:textColor="@color/white"
@@ -692,7 +745,7 @@
                 android:id="@+id/textView82"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="anu2002mishra@gmail.com"
                 android:textColor="#F44336"
@@ -727,17 +780,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="AASTHA NAMDEO"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView88"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Content Writer"
                 android:textColor="@color/white"
@@ -747,7 +800,7 @@
                 android:id="@+id/textView89"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="aasthanamdev191@gmail.com"
                 android:textColor="#F44336"
@@ -782,17 +835,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/font5"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="SAKSHI RAGHUWANSHI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView85"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Design Executive"
                 android:textColor="@color/white"
@@ -802,7 +855,7 @@
                 android:id="@+id/textView86"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="sakshiraghuwanshi1111@gmail.com"
                 android:textColor="#F44336"
@@ -837,17 +890,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="VARSHA TRIPATHI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView91"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Design Executive And Content Writer"
                 android:textColor="@color/white"
@@ -857,7 +910,7 @@
                 android:id="@+id/textView92"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Varshatripathi1901@gmail.com"
                 android:textColor="#F44336"
@@ -892,17 +945,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="ASHUTOSH TIWARI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView94"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Event Organizer And PR Analyst"
                 android:textColor="@color/white"
@@ -912,7 +965,7 @@
                 android:id="@+id/textView95"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Chhotu.kostu@gmail.com"
                 android:textColor="#F44336"
@@ -947,17 +1000,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="RITIK TRIVEDI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView97"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Event Organizer And PR Analyst"
                 android:textColor="@color/white"
@@ -967,7 +1020,7 @@
                 android:id="@+id/textView98"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="ritikktrivedi9999@gmail.com"
                 android:textColor="#F44336"
@@ -1002,17 +1055,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="PIYUSH KESARWANI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView100"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Content Writer"
                 android:textColor="@color/white"
@@ -1022,7 +1075,7 @@
                 android:id="@+id/textView101"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="piyushkesharwani478@gmail.com"
                 android:textColor="#F44336"
@@ -1057,17 +1110,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="VAISHALI TRIPATHI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView103"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Event Organizer And Corporate Relations Executive"
                 android:textColor="@color/white"
@@ -1077,7 +1130,7 @@
                 android:id="@+id/textView104"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="vaishalit1905@gmail.com"
                 android:textColor="#F44336"
@@ -1112,17 +1165,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="SHIKSHA DWIVEDI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView106"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Event Organizer And Graphics Designer"
                 android:textColor="@color/white"
@@ -1132,7 +1185,7 @@
                 android:id="@+id/textView107"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="greatshiksha04@gmail.com"
                 android:textColor="#F44336"
@@ -1167,17 +1220,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="JUHI SINGH"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView109"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Content Writer"
                 android:textColor="@color/white"
@@ -1187,7 +1240,7 @@
                 android:id="@+id/textView110"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="juhisingh90646@gmail.com"
                 android:textColor="#F44336"
@@ -1222,17 +1275,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="SUMIT SOURAV CHOUDHURY"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView112"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Web Developer"
                 android:textColor="@color/white"
@@ -1242,7 +1295,7 @@
                 android:id="@+id/textView113"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="choudhurysumit377@gmail.com"
                 android:textColor="#F44336"
@@ -1277,17 +1330,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="SUYASH TIWARI"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView116"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Event Organizer And Strategist"
                 android:textColor="@color/white"
@@ -1297,7 +1350,7 @@
                 android:id="@+id/textView117"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="suyashtiwaari@gmail.com"
                 android:textColor="#F44336"
@@ -1322,10 +1375,11 @@
                 app:strokeColor="@color/white"
                 app:strokeWidth="1dp" />
 
+
             <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/lottiesssss"
+                android:id="@+id/lottiess"
                 android:layout_width="match_parent"
-                android:layout_height="168dp"
+                android:layout_height="wrap_content"
                 android:layout_marginEnd="0dp"
                 android:layout_marginRight="0dp"
                 android:elevation="5dp"
@@ -1342,7 +1396,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/font6"
                 android:text="info@recpedia.org"
                 android:textColor="@color/white" />
 
@@ -1352,7 +1406,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/font6"
                 android:text="+91 9424002624"
                 android:textColor="@color/white" />
 
@@ -1363,10 +1417,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/font6"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering College,Rewa,Madhya Pradesh,India - 486001"
+                android:text="REC Pedia's Office, 1st Floor, Rewa Engineering College, Rewa, Madhya Pradesh, India - 486002"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
@@ -1385,10 +1439,11 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="instabuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="instabuttom"
                     android:src="@drawable/instagram" />
+
                 <ImageView
                     android:id="@+id/linkibuttom"
                     android:layout_width="24dp"
@@ -1396,9 +1451,9 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="linkibuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="linkibuttom"
                     android:src="@drawable/linkedin" />
 
                 <ImageView
@@ -1409,9 +1464,9 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="ytbuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="ytbuttom"
                     android:src="@drawable/youtube" />
 
                 <ImageView
@@ -1449,9 +1504,8 @@
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/divider"
-                app:lottie_url="REPLACE_JSON_URL">
+                app:lottie_url="REPLACE_JSON_URL"></com.airbnb.lottie.LottieAnimationView>
 
-            </com.airbnb.lottie.LottieAnimationView>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

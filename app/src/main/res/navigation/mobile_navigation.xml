@@ -7,36 +7,56 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.recpedia.ui.home.HomeFragment"
+        android:name="com.pediaapp.recpedia.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.recpedia.ui.gallery.GalleryFragment"
+        android:name="com.pediaapp.recpedia.ui.gallery.GalleryFragment"
         android:label="GALLERY"
         tools:layout="@layout/fragment_gallery" />
     <fragment
         android:id="@+id/contactus3"
-        android:name="com.example.recpedia.contactus"
+        android:name="com.pediaapp.recpedia.contactus"
         android:label="CONTACT US"
         tools:layout="@layout/contactus_fragment" />
     <fragment
         android:id="@+id/aboutus"
-        android:name="com.example.recpedia.Aboutus"
+        android:name="com.pediaapp.recpedia.Aboutus"
         android:label="ABOUT US"
         tools:layout="@layout/recpedia" />
 
 
     <fragment
         android:id="@+id/joinourteam2"
-        android:name="com.example.recpedia.joinourteam"
-        android:label="JOINOURTEAM"
+        android:name="com.pediaapp.recpedia.joinourteam"
+        android:label="JOIN OUR TEAM"
         tools:layout="@layout/fragment_joinourteam" />
     <fragment
         android:id="@+id/academics"
-        android:name="com.example.recpedia.Academics"
+        android:name="com.pediaapp.recpedia.Academics"
         android:label="ACADEMICS"
         tools:layout="@layout/fragment_academics" />
+    <fragment
+        android:id="@+id/ELIBRARY"
+        android:name="com.pediaapp.recpedia.ELIBRARY"
+        android:label="E-LIBRARY"
+        tools:layout="@layout/fragment_e_l_i_b_r_a_r_y" />
+    <fragment
+        android:id="@+id/antiragging"
+        android:name="com.pediaapp.recpedia.Antiragging"
+        android:label="Anti-Ragging"
+        tools:layout="@layout/fragment_antiragging" />
+    <fragment
+        android:id="@+id/videolecture"
+        android:name="com.pediaapp.recpedia.videolecture"
+        android:label="KNOW YOUR FACULTY"
+        tools:layout="@layout/fragment_videolecture" />
+    <fragment
+        android:id="@+id/rgpvlogin"
+        android:name="com.pediaapp.recpedia.rgpvlogin"
+        android:label="NO-DUES CERTIFICATION"
+        tools:layout="@layout/fragment_rgpvlogin" />
 
 </navigation>

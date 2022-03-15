@@ -60,7 +60,7 @@
                 android:gravity="center"
                 android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -87,7 +87,6 @@
 
             </com.airbnb.lottie.LottieAnimationView>
 
-
             <TextView
                 android:id="@+id/slide_text"
                 android:layout_width="match_parent"
@@ -95,9 +94,9 @@
                 android:layout_margin="10dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="@string/the_most_esteemed_celebrated_organization_of_rec"
+                android:text="To \nThe Most Esteemed &amp; Celebrated Organization of REC"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -119,9 +118,8 @@
                 android:gravity="center"
                 android:onClick="know_more"
                 android:text="KNOW MORE"
-                android:textColor="@color/white"
+                android:textColor="#FCC30D"
                 app:backgroundTint="#22292F"
-                app:icon="@drawable/ic_menu_send"
                 app:iconGravity="textStart"
 
                 app:iconTint="@color/white"
@@ -137,7 +135,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="OUR SERVICES"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="30sp" />
 
             <LinearLayout
@@ -294,6 +292,8 @@
             </LinearLayout>
 
 
+
+
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
@@ -302,73 +302,51 @@
                 android:layout_marginBottom="15dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="FROM THE LEADERS'S \n DESK"
+                android:text="FACULTY MENTORS"
                 android:textColor="#FFC107"
                 android:textSize="30sp" />
 
 
-            <ViewFlipper
+
+
+
+
+            <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:autoStart="true"
-
-
-                android:flipInterval="3000">
-
-                <ImageView
-                    android:id="@+id/imageView31"
+                android:layout_gravity="center"
+                android:fillViewport="true"
+                android:scrollbars="horizontal|vertical" >
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:src="@drawable/head1" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
 
-                <ImageView
-                    android:id="@+id/imageView34"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/head4" />
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="300dp"
+                        android:layout_height="318dp"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/principle" />
 
-                <ImageView
-                    android:id="@+id/imageView32"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:src="@drawable/head2" />
+                    <ImageView
+                        android:id="@+id/sandeep"
+                        android:layout_width="300dp"
+                        android:layout_height="318dp"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/sandeeppandey" />
 
-                <ImageView
-                    android:id="@+id/imageView33"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/head3" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
-                <ImageView
-                    android:id="@+id/imageView150"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/adityathought" />
 
-                <ImageView
-                    android:id="@+id/imageView151"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/somyathought" />
 
-                <ImageView
-                    android:id="@+id/imageView152"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/abhishekthought" />
 
-                <ImageView
-                    android:id="@+id/imageView164"
-                    android:layout_width="wrap_content"
-                    android:layout_height="293dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/sanskarthought" />
-            </ViewFlipper>
+
+
+
 
 
             <TextView
@@ -379,7 +357,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="COLLABORATORS &amp; ASSOCIATES"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="30sp" />
 
             <TextView
@@ -397,9 +375,9 @@
             <ImageView
                 android:id="@+id/imageView35"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="266dp"
                 android:foregroundGravity="center"
-                android:src="@drawable/ecell" />
+                android:src="@drawable/logoecell" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -409,7 +387,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="E-CELL RGPV"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -424,41 +402,11 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
-            <ImageView
-                android:id="@+id/imageView36"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:foregroundGravity="center"
-                android:src="@drawable/tdp" />
-
-            <TextView
-                android:id="@+id/textView21"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="TDP VISTA"
-                android:textColor="#FFC107"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:layout_marginBottom="45dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="Internship Partner"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
 
             <ImageView
                 android:id="@+id/imageView37"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:foregroundGravity="center"
+                android:layout_height="266dp"
                 android:src="@drawable/internsala" />
 
             <TextView
@@ -469,7 +417,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="INTERNSHALA"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -484,136 +432,42 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
-            <ImageView
-                android:id="@+id/imageView38"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:foregroundGravity="center"
-                android:src="@drawable/longlogo" />
 
+            <ImageView
+                android:id="@+id/imageView428"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/noticeboard" />
             <TextView
-                android:id="@+id/textView25"
+                android:id="@+id/textView335"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="MTTF"
-                android:textColor="#FFC107"
+                android:text="NOTICEBARD"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView26"
+                android:id="@+id/textView350"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
                 android:layout_marginBottom="45dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="International Workshop Partner"
+                android:text="Official Media Partner"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
-
-            <ImageView
-                android:id="@+id/imageView39"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:foregroundGravity="center"
-
-                android:src="@drawable/sarasva" />
-
-            <TextView
-                android:id="@+id/textView27"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="IIIT ALLAHABAD"
-                android:textColor="#FFC107"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:layout_marginBottom="45dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="Knowledge Partner"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
-
-            <ImageView
-                android:id="@+id/imageView40"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:foregroundGravity="center"
-
-                android:src="@drawable/dare" />
-
-            <TextView
-                android:id="@+id/textView29"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="DARE2COMPETE"
-                android:textColor="#FFC107"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView30"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:layout_marginBottom="45dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="Online Events Partner"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
-
-            <ImageView
-                android:id="@+id/imageView41"
-                android:layout_width="423dp"
-                android:layout_height="129dp"
-                android:foregroundGravity="center"
-                android:scaleX="1.7"
-                android:src="@drawable/qullab" />
-
-            <TextView
-                android:id="@+id/textView31"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="QUOLLAB"
-                android:textColor="#FFC107"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView32"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:layout_marginBottom="45dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="Virtual Experience Partner"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
-
             <ImageView
                 android:id="@+id/imageView42"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="266dp"
 
                 android:foregroundGravity="center"
-                android:scaleX="1.6"
                 android:src="@drawable/bombaypart" />
 
             <TextView
@@ -624,7 +478,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="E-CELL NITB"
-                android:textColor="#FFC107"
+                android:textColor="#FCC30D"
                 android:textSize="18sp" />
 
             <TextView
@@ -639,10 +493,32 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
+            <Button
+                android:id="@+id/collob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:onClick="pedis_plus"
+                android:text="SHOW MORE"
+                android:textColor="#FCC30D"
+                app:backgroundTint="#22292F"
+                app:iconGravity="textStart"
+
+                app:iconTint="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottiess"
                 android:layout_width="match_parent"
-                android:layout_height="168dp"
+                android:layout_height="wrap_content"
                 android:layout_marginEnd="0dp"
                 android:layout_marginRight="0dp"
                 android:elevation="5dp"
@@ -659,7 +535,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/font6"
                 android:text="info@recpedia.org"
                 android:textColor="@color/white" />
 
@@ -669,7 +545,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/font6"
                 android:text="+91 9424002624"
                 android:textColor="@color/white" />
 
@@ -680,11 +556,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/font6"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering
-                College,Rewa,Madhya Pradesh,India - 486001"
+                android:text="REC Pedia's Office, 1st Floor, Rewa Engineering College, Rewa, Madhya Pradesh, India - 486002"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
@@ -768,10 +643,7 @@
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/divider"
-                app:lottie_url="REPLACE_JSON_URL">
-
-            </com.airbnb.lottie.LottieAnimationView>
-
+                app:lottie_url="REPLACE_JSON_URL"></com.airbnb.lottie.LottieAnimationView>
         </LinearLayout>
     </ScrollView>
 

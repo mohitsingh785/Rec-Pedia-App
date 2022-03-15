@@ -27,12 +27,13 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0">
 
-            <pl.droidsonroids.gif.GifImageView
+
+            <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/giflogo" />
+                android:src="@drawable/logo" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -52,7 +53,7 @@
                 android:gravity="center"
                 android:text="Official Media House &amp; Event Organizing Body"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -145,10 +146,34 @@
                 app:strokeWidth="3dp" />
 
             <Button
+                android:id="@+id/sydulemeeting"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Schedule a Meeting"
+                android:textColor="#E91E63"
+                app:backgroundTint="#22292F"
+                app:icon="@android:drawable/stat_sys_headset"
+                app:iconGravity="textStart"
+                app:iconTint="#E91E63"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendyourmessage"
+                app:strokeColor="@color/white"
+                app:strokeWidth="3dp" />
+
+            <Button
                 android:id="@+id/call"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
                 android:background="@drawable/button_background"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
@@ -167,9 +192,9 @@
                 app:strokeWidth="3dp" />
 
             <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/lottiesss"
+                android:id="@+id/lottiessfdrg"
                 android:layout_width="match_parent"
-                android:layout_height="168dp"
+                android:layout_height="wrap_content"
                 android:layout_marginEnd="0dp"
                 android:layout_marginRight="0dp"
                 android:elevation="5dp"
@@ -186,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/font6"
                 android:text="info@recpedia.org"
                 android:textColor="@color/white" />
 
@@ -196,9 +221,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/font6"
                 android:text="+91 9424002624"
                 android:textColor="@color/white" />
+
 
             <TextView
                 android:id="@+id/textView37"
@@ -206,10 +232,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/font6"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering College,Rewa,Madhya Pradesh,India - 486001"
+                android:text="REC Pedia's Office, 1st Floor, Rewa Engineering College, Rewa, Madhya Pradesh, India - 486002"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
@@ -228,10 +254,11 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="instabuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="instabuttom"
                     android:src="@drawable/instagram" />
+
                 <ImageView
                     android:id="@+id/linkibuttom"
                     android:layout_width="24dp"
@@ -239,9 +266,9 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="linkibuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="linkibuttom"
                     android:src="@drawable/linkedin" />
 
                 <ImageView
@@ -252,9 +279,9 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="ytbuttom"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="ytbuttom"
                     android:src="@drawable/youtube" />
 
                 <ImageView
@@ -292,9 +319,7 @@
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/divider"
-                app:lottie_url="REPLACE_JSON_URL">
-
-            </com.airbnb.lottie.LottieAnimationView>
+                app:lottie_url="REPLACE_JSON_URL"></com.airbnb.lottie.LottieAnimationView>
         </LinearLayout>
 
 

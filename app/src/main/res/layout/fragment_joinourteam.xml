@@ -46,7 +46,7 @@
             android:gravity="center"
             android:text="OFFICIAL MEDIA HOUSE  &amp; EVENT ORGANIZING BODY"
             android:textColor="@color/white"
-            android:textSize="12sp" />
+            android:textSize="14sp" />
 
 
         <TextView
@@ -76,8 +76,11 @@
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_background"
             android:scaleX="1.6"
-            app:srcCompat="@drawable/join" />
+            app:srcCompat="@drawable/joinus" />
 
         <TextView
             android:id="@+id/textView83"
@@ -132,8 +135,9 @@
             android:text="if you have queries or for any kind of help, Feel free to contact us at 9424002624"
             android:textColor="@color/white" />
 
+
         <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/lottiess"
+            android:id="@+id/lottiesss"
             android:layout_width="match_parent"
             android:layout_height="168dp"
             android:layout_marginEnd="0dp"
@@ -166,7 +170,6 @@
             android:text="+91 9424002624"
             android:textColor="@color/white" />
 
-
         <TextView
             android:id="@+id/textView37"
             android:layout_width="wrap_content"
@@ -176,7 +179,7 @@
             android:fontFamily="sans-serif"
             android:gravity="center"
             android:padding="5dp"
-            android:text="REC Pedia's Office, 1st Floor,Rewa Enginnering College,Rewa,Madhya Pradesh,India - 486001"
+            android:text="REC Pedia's Office , 1st Floor ,Rewa Enginnering College ,Rewa,Madhya Pradesh ,India - 486002"
             android:textColor="@color/white"
             android:textSize="14sp" />
 
@@ -248,7 +251,6 @@
                 android:onClick="twitterbuttom"
                 android:src="@drawable/twitter" />
         </LinearLayout>
-
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottiessdivider"
             android:layout_width="match_parent"
